@@ -1,4 +1,4 @@
-from urllib3.request import localhost
+#from urllib3.request import localhost
 
 from flask import Flask
 import scraper as sc

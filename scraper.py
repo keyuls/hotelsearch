@@ -19,12 +19,12 @@ def searchSite():
     results = pm.map(scrapSite,sites)
     pm.close()
     pm.join()
-    merged=heapq.merge(results)
-    '''for x in results:
+    #merged=heapq.merge(results)
+    for x in results:
         for y in x:
             store.append(y)
-    store.sort(key=sortByEcstasy,reverse=True) ' '''
-    return list(merged)
+    store.sort(key=sortByEcstasy,reverse=True)
+    return store
 
 def scrapSite(site):
     baseurl="http://localhost:9000/scrapers/"
