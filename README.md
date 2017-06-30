@@ -2,7 +2,7 @@
 This is a hotel search API for Hipmunk that queries each of different partners sites and merges their results together. 
 The list of hotels is sorted by ecstasy. 
 
-It's run on localhost with port 8000.
+It's run on localhost 127.0.0.1 with port 8000.
  The HTTP endpoint:
 ```GET /hotels/search``` - returns hotel results from all providers as JSON
 
